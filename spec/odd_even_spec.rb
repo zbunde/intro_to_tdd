@@ -16,4 +16,13 @@ describe "Check Array length" do
 end
 
 
+describe "Odd" do
+  it "changes all odd numbers to the word 'Odd' in an array" do
+  test = Odd.new(5)
+  expected = ["Odd", 2, "Odd", 4, "Odd"]
+
+  expect(test.odd).to eq(expected)
+  end
+end
+
 
