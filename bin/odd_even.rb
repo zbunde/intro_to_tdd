@@ -8,8 +8,7 @@ class OddEven
       if number%2 != 0
         numbers[number-1] = "Odd"
       else
-        number%2 == 0
-        numbers[number-1] = "Even"
+         numbers[number-1] = "Even"
       end
 
     end
