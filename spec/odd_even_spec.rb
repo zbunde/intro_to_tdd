@@ -10,7 +10,7 @@ describe "OddEven" do
     test = OddEven.new(5)
     expected = ["Odd", "Even", "Odd", "Even", "Odd"]
 
-    expect(test.oddeven).to eq(expected)
+    expect(test.odd_even).to eq(expected)
   end
 end
 
