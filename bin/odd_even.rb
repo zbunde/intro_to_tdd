@@ -2,30 +2,19 @@ class OddEven
   def initialize(number)
     @number = number.to_i
   end
-
-  def array
-    numbers = (1..@number).to_a
-  end
-
-
- def odd
+ def oddeven
     numbers = (1..@number).to_a
     numbers.each do |number|
       if number%2 != 0
         numbers[number-1] = "Odd"
+      else
+        number%2 == 0
+        numbers[number-1] = "Even"
       end
+
     end
     numbers
   end
-
-
-  def even
-    numbers = (1..@number).to_a
-    numbers.each do |number|
-      if number%2 == 0
-        numbers[number-1] = "Even"
-      end
-    end
-  numbers
-  end
 end
+
+
